@@ -1,6 +1,4 @@
-package org.thermoweb.designpatterns.ducks.behavior;
-
-import org.thermoweb.designpatterns.ducks.behavior.FlyBehavior;
+package org.thermoweb.designpatterns.strategy.ducksimulator.behavior;
 
 public class FlyWithWings implements FlyBehavior {
 

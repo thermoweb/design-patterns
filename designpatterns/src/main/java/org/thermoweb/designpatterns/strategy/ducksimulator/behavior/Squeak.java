@@ -1,6 +1,4 @@
-package org.thermoweb.designpatterns.ducks.behavior;
-
-import org.thermoweb.designpatterns.ducks.behavior.QuackBehavior;
+package org.thermoweb.designpatterns.strategy.ducksimulator.behavior;
 
 public class Squeak implements QuackBehavior {
     public void quack() {

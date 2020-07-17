@@ -1,7 +1,7 @@
-package org.thermoweb.designpatterns.ducks.duck;
+package org.thermoweb.designpatterns.strategy.ducksimulator.duck;
 
-import org.thermoweb.designpatterns.ducks.behavior.FlyWithWings;
-import org.thermoweb.designpatterns.ducks.behavior.Quack;
+import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.FlyWithWings;
+import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.Quack;
 
 public class MallarDuck extends Duck {
 

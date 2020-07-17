@@ -1,7 +1,7 @@
-package org.thermoweb.designpatterns.ducks.duck;
+package org.thermoweb.designpatterns.strategy.ducksimulator.duck;
 
-import org.thermoweb.designpatterns.ducks.behavior.FlyBehavior;
-import org.thermoweb.designpatterns.ducks.behavior.QuackBehavior;
+import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.FlyBehavior;
+import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.QuackBehavior;
 
 public abstract class Duck {
 
@@ -23,7 +23,7 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println("All ducks float, even decoys!");
+        System.out.println("All strategy float, even decoys!");
     }
 
     public void setQuackBehavior(QuackBehavior quackBehavior) {
