@@ -1,6 +1,6 @@
 package org.thermoweb.designpatterns.strategy.ducksimulator;
 
-import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.FlyRocketPowered;
+import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.fly.FlyRocketPowered;
 import org.thermoweb.designpatterns.strategy.ducksimulator.duck.Duck;
 import org.thermoweb.designpatterns.strategy.ducksimulator.duck.MallarDuck;
 import org.thermoweb.designpatterns.strategy.ducksimulator.duck.ModelDuck;

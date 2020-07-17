@@ -1,7 +1,7 @@
 package org.thermoweb.designpatterns.strategy.ducksimulator.duck;
 
-import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.FlyBehavior;
-import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.QuackBehavior;
+import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.fly.FlyBehavior;
+import org.thermoweb.designpatterns.strategy.ducksimulator.behavior.quack.QuackBehavior;
 
 public abstract class Duck {
 

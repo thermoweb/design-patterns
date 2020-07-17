@@ -1,4 +1,4 @@
-package org.thermoweb.designpatterns.strategy.ducksimulator.behavior;
+package org.thermoweb.designpatterns.strategy.ducksimulator.behavior.fly;
 
 public class FlyRocketPowered implements FlyBehavior {
     public void fly() {
