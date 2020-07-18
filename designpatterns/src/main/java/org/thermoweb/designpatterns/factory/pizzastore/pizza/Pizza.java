@@ -20,7 +20,7 @@ public abstract class Pizza {
 
     ArrayList<String> toppings = new ArrayList<>();
 
-    abstract void prepare();
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
