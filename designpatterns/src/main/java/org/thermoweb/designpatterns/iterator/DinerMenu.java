@@ -1,11 +1,13 @@
 package org.thermoweb.designpatterns.iterator;
 
-public class DinerMenu {
-    static final int MAX_ITEMS = 6;
-    int numberOfItems = 0;
-    MenuItem[] menuItems;
+import java.util.Iterator;
 
-    public DinerMenu() {
+public class DinerMenu implements Menu {
+    static final int MAX_ITEMS = 6;
+    private int numberOfItems = 0;
+    private MenuItem[] menuItems;
+
+    DinerMenu() {
         menuItems = new MenuItem[MAX_ITEMS];
 
         addItem("Vegetarian BLT",
@@ -24,7 +26,7 @@ public class DinerMenu {
         }
     }
 
-    public MenuItem[] getMenuItems() {
-        return menuItems;
+    public Iterator createIterator() {
+        return new DinerMenuIterator(menuItems);
     }
 }
