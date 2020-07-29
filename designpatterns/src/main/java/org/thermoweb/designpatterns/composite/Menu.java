@@ -3,7 +3,7 @@ package org.thermoweb.designpatterns.composite;
 import java.util.ArrayList;
 
 public class Menu extends MenuComponent {
-    private ArrayList<MenuComponent> menuComponents = new ArrayList<>();
+    private ArrayList<MenuComponent> menuComponents = new ArrayList();
     private String name;
     private String description;
 
