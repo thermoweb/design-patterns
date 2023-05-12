@@ -6,7 +6,7 @@ public class CeilingFan {
     public static final int LOW = 1;
     public static final int OFF = 0;
 
-    private String name;
+    private final String name;
     private int speed;
 
     public CeilingFan(String name) {

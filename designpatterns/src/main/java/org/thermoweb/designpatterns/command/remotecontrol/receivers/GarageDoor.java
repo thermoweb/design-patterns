@@ -1,7 +1,7 @@
 package org.thermoweb.designpatterns.command.remotecontrol.receivers;
 
 public class GarageDoor {
-    private String name;
+    private final String name;
     public GarageDoor(String name) {
         this.name = name;
     }

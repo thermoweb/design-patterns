@@ -1,7 +1,5 @@
 package org.thermoweb.designpatterns.command.remotecontrol.commands;
 
-import org.thermoweb.designpatterns.command.remotecontrol.commands.Command;
-
 public class NoCommand implements Command {
     @Override
     public void execute() {

@@ -3,7 +3,7 @@ package org.thermoweb.designpatterns.command.remotecontrol.commands;
 import org.thermoweb.designpatterns.command.remotecontrol.receivers.GarageDoor;
 
 public class GarageDoorUpCommand implements Command {
-    private GarageDoor garageDoor;
+    private final GarageDoor garageDoor;
 
     public GarageDoorUpCommand(GarageDoor garageDoor) {
         this.garageDoor = garageDoor;
