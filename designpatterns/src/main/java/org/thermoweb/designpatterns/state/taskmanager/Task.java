@@ -2,11 +2,13 @@ package org.thermoweb.designpatterns.state.taskmanager;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 import org.thermoweb.designpatterns.state.taskmanager.states.Created;
 import org.thermoweb.designpatterns.state.taskmanager.states.TaskState;
 
 @Getter
 @Setter
+@Slf4j
 public class Task {
 
     private TaskState state;
@@ -26,11 +28,19 @@ public class Task {
     }
 
     public void execute() {
-        state.execute(this);
+        try {
+            state.execute(this);
+        } catch (TaskException e) {
+            log.atError().log("An error occurred during task execution : {}", e.getMessage());
+        }
     }
 
     public void prepare() {
-        state.prepare(this);
+        try {
+            state.prepare(this);
+        } catch (TaskException e) {
+            log.atError().log("An error occurred during task preparation : {}", e.getMessage());
+        }
     }
 
     @Override
