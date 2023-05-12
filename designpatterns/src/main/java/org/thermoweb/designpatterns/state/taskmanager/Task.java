@@ -1,13 +1,9 @@
 package org.thermoweb.designpatterns.state.taskmanager;
 
-import lombok.Getter;
-import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.thermoweb.designpatterns.state.taskmanager.states.Created;
 import org.thermoweb.designpatterns.state.taskmanager.states.TaskState;
 
-@Getter
-@Setter
 @Slf4j
 public class Task {
 
