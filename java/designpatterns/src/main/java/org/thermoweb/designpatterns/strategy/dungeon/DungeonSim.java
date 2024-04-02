@@ -3,7 +3,7 @@ package org.thermoweb.designpatterns.strategy.dungeon;
 import org.thermoweb.designpatterns.strategy.dungeon.character.Character;
 import org.thermoweb.designpatterns.strategy.dungeon.character.King;
 import org.thermoweb.designpatterns.strategy.dungeon.character.Troll;
-import org.thermoweb.designpatterns.strategy.dungeon.weapons.BowAndArrowBehavior;
+import org.thermoweb.designpatterns.strategy.dungeon.weapons.BowAndArrowStrategy;
 
 public class DungeonSim {
 
@@ -12,7 +12,7 @@ public class DungeonSim {
         Character troll = new Troll();
         troll.fight();
         king.fight();
-        king.setWeapon(new BowAndArrowBehavior());
+        king.setWeapon(new BowAndArrowStrategy());
         king.fight();
     }
 }

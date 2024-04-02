@@ -1,13 +1,13 @@
 package org.thermoweb.designpatterns.factory.pizzastore.pizza;
 
+import java.util.ArrayList;
+
 import org.thermoweb.designpatterns.factory.pizzastore.ingredients.Cheese;
 import org.thermoweb.designpatterns.factory.pizzastore.ingredients.Clams;
 import org.thermoweb.designpatterns.factory.pizzastore.ingredients.Dough;
 import org.thermoweb.designpatterns.factory.pizzastore.ingredients.Pepperoni;
 import org.thermoweb.designpatterns.factory.pizzastore.ingredients.Sauce;
 import org.thermoweb.designpatterns.factory.pizzastore.ingredients.Veggies;
-
-import java.util.ArrayList;
 
 public abstract class Pizza {
     String name;

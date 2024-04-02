@@ -1,9 +1,5 @@
 package org.thermoweb.designpatterns.template.starbuzz;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public abstract class CaffeineBeverage {
 
     final void prepareRecipe() {

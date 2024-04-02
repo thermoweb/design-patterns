@@ -1,13 +1,16 @@
 package org.thermoweb.designpatterns.adapter;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class MallardDuck implements Duck {
     @Override
     public void quack() {
-        System.out.println("Quack");
+        log.atInfo().log("Quack");
     }
 
     @Override
     public void fly() {
-        System.out.println("I'm flying");
+        log.atInfo().log("I'm flying");
     }
 }

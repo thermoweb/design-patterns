@@ -1,7 +1,5 @@
 package org.thermoweb.designpatterns.singleton.chocoholic;
 
-import java.util.Objects;
-
 public class ChocolateBoiler {
     private boolean empty;
     private boolean boiled;

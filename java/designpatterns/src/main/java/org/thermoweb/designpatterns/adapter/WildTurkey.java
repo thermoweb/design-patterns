@@ -1,13 +1,16 @@
 package org.thermoweb.designpatterns.adapter;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class WildTurkey implements Turkey {
     @Override
     public void gobble() {
-        System.out.println("Gobble gobble");
+        log.atInfo().log("Gobble gobble");
     }
 
     @Override
     public void fly() {
-        System.out.println("I'm flying a short distance");
+        log.atInfo().log("I'm flying a short distance");
     }
 }
