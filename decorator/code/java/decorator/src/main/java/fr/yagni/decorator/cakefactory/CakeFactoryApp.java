@@ -1,12 +1,11 @@
-package org.thermoweb.designpatterns.decorator.cupcakes;
+package fr.yagni.decorator.cakefactory;
 
-import org.thermoweb.designpatterns.decorator.cupcakes.cakes.Cake;
-import org.thermoweb.designpatterns.decorator.cupcakes.cakes.Cookie;
-import org.thermoweb.designpatterns.decorator.cupcakes.cakes.CupCake;
-import org.thermoweb.designpatterns.decorator.cupcakes.toppings.Caramel;
-import org.thermoweb.designpatterns.decorator.cupcakes.toppings.Chocolate;
-import org.thermoweb.designpatterns.decorator.cupcakes.toppings.Nuts;
-
+import fr.yagni.decorator.cakefactory.cakes.Cake;
+import fr.yagni.decorator.cakefactory.cakes.Cookie;
+import fr.yagni.decorator.cakefactory.cakes.CupCake;
+import fr.yagni.decorator.cakefactory.toppings.Caramel;
+import fr.yagni.decorator.cakefactory.toppings.Chocolate;
+import fr.yagni.decorator.cakefactory.toppings.Nuts;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

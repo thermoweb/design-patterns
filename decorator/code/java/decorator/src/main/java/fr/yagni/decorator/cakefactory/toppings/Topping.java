@@ -1,6 +1,6 @@
-package org.thermoweb.designpatterns.decorator.cupcakes.toppings;
+package fr.yagni.decorator.cakefactory.toppings;
 
-import org.thermoweb.designpatterns.decorator.cupcakes.cakes.Cake;
+import fr.yagni.decorator.cakefactory.cakes.Cake;
 
 public interface Topping extends Cake {
 

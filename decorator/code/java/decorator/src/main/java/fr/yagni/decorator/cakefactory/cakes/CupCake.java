@@ -1,4 +1,4 @@
-package org.thermoweb.designpatterns.decorator.cupcakes.cakes;
+package fr.yagni.decorator.cakefactory.cakes;
 
 public class CupCake implements Cake {
 
